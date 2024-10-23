@@ -50,6 +50,13 @@ main {
 	margin: auto;
 	padding: 3em 1em;
 }
+
+.main_cta {
+	width: 720px;
+	max-width: calc(100% - 2em);
+	padding: 3em 1em;
+	margin-top: 30%;
+}
 h1,
 h2,
 h3,

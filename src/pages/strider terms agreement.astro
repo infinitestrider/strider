@@ -1,0 +1,29 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Heade from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<!-- <Header />-->
+		<div class="main_cta">
+			<h4>🏇 Hello, Strider!</h4>
+            Strider is an external content delivery system.
+            <br>
+			You will be using a service that delivers the link you are looking for.
+            <br>
+            By clicking the link below, you agree to receive a link from another party as part of the service.
+            <br> 
+            If there is an issue with the link you receive, be sure to contact the party the link belongs to.
+            <br><br>
+            <a class="link_" href="/stride-this-link">Accept and Agree</a>
+		</div>
+		<Footer />
+	</body>
+</html>
